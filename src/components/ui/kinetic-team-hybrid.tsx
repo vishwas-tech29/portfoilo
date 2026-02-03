@@ -90,6 +90,7 @@ export default function KineticTeamHybrid() {
 
   return (
     <div
+      id="recent-works"
       ref={containerRef}
       onMouseMove={handleMouseMove}
       className="relative min-h-screen w-full cursor-default bg-[var(--background)] px-6 py-24 text-[var(--foreground)] md:px-12"
