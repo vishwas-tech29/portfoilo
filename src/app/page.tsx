@@ -1,7 +1,7 @@
 "use client"
 
 import { CustomCursor } from '@/components/ui/custom-cursor'
-import { PromptingIsAllYouNeed } from '@/components/ui/animated-hero-section'
+import { CinematicHero3D } from '@/components/cinematic-hero-3d'
 import { Introduction } from '@/components/introduction'
 import { StorytellingSection } from '@/components/storytelling-section'
 import KineticTeamHybrid from '@/components/ui/kinetic-team-hybrid'
@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <CustomCursor />
-      <PromptingIsAllYouNeed />
+      <CinematicHero3D />
       <Introduction />
       <StorytellingSection />
       <KineticTeamHybrid />
